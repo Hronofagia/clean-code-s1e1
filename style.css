@@ -18,9 +18,13 @@
 }
 
 @media (max-width:768px) {
-  .top-container { text-align: center;
+
+  .top-container { 
+    text-align: center;
   }
+
 }
+
 .list-container {
   display: block;
   width: 500px;
@@ -35,14 +39,14 @@
   display: flex;
 }
 .tasks-list {
-    margin:0;
-    padding: 0px;
+  margin:0;
+  padding: 0px;
 }
 .block-title {
-    list-style:none;
+  list-style:none;
 }
 .task__input, .checkbox, .action, .delete {
-    outline:none;
+  outline:none;
 }
 .action, .delete {
   background: none;
