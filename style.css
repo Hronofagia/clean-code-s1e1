@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.main-container {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -34,14 +34,14 @@ body {
 .add-block__wrapper {
   display: flex;
 }
-ul {
+.tasks-list {
     margin:0;
     padding: 0px;
 }
-li, h3 {
+.block-title {
     list-style:none;
 }
-input,button{
+.task__input, .checkbox, .action, .delete {
     outline:none;
 }
 .action, .delete {
